@@ -12,7 +12,7 @@ Resume Repo: [https://github.com/jiang-yi-siphty/YiJiangProfile](https://github.
 
 ##Profile  
 
-As a senior iOS app developer, I have 8 years iOS app development experience including over 7 years of commercial application developing experience. I have two master's degrees in engineering study and ICT. I got over 6 years of security system industry working experience and 4 years of agile development working experience.  Now, I am just finished the contract with BWS Woolworths as a senior iOS developer.
+As a senior iOS app developer, I have eight years of iOS app development experience, including over seven years of commercial application developing experience. I have two master's degrees in engineering study and ICT. I got more than six decades of security system industry experience and four years of agile development working experience. Now, I have finished the contract with BWS Woolworths as a senior iOS developer.
  
 ##Key Strengths  
 
@@ -29,7 +29,7 @@ As a senior iOS app developer, I have 8 years iOS app development experience inc
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iOS**, **Swift 5**, **Objective-C** with and without Storyboard  
 - **Design Patterns**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**MVC**, **MVVM**, **MVVM-C** with and without **RxSwift**   
-- **Other API/Framworks**      
+- **Other API/Framework**      
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**UIAccessibility**, **PushNotification**, **CoreLocation**, **MapKit**, **iBeacons**,      
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ARKit**, **SceneKit**, **DJI SDK**, **Alamofire**, **Facebook SDK**,       
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Google Serial SDKs**, **Ably SDK**, **DarkSky API**, **SwiftUI + Combine**  
