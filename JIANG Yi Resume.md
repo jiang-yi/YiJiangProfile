@@ -12,7 +12,7 @@ Resume Repo: [https://github.com/jiang-yi-siphty/YiJiangProfile](https://github.
 
 ##Profile  
 
-As a senior iOS app developer, I have eight years of iOS app development experience, including over seven years of commercial application developing experience. I have two master's degrees in engineering study and ICT. I got more than six decades of security system industry experience and four years of agile development working experience. Now, I have finished the contract with BWS Woolworths as a senior iOS developer.
+As a senior iOS app developer, I have ten years of iOS app development experience, including over eight years of commercial application developing experience. I have two master's degrees in engineering study and ICT. I got more than six years of security system industry experience and six years of agile development working experience. Now, I am working on CommBank App.
  
 ##Key Strengths  
 
@@ -30,9 +30,9 @@ As a senior iOS app developer, I have eight years of iOS app development experie
 - **Design Patterns**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**MVC**, **MVVM**, **MVVM-C** with and without **RxSwift**   
 - **Other API/Framework**      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**UIAccessibility**, **PushNotification**, **CoreLocation**, **MapKit**, **iBeacons**,      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**ARKit**, **SceneKit**, **DJI SDK**, **Alamofire**, **Facebook SDK**,       
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Google Serial SDKs**, **Ably SDK**, **DarkSky API**, **SwiftUI + Combine**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**UIAccessibility**, **PushNotification**, **CoreLocation**, **MapKit**,       
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iBeacons**, **ARKit**, **SceneKit**, **DJI SDK**, **Alamofire**, **Facebook SDK**,       
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Google Serial SDKs**, **Ably SDK**, **DarkSky API**,    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Lottie**, **SDWebImage**, **Starscream**, **Crashlytics**, **Fabric**    
 - **Agile Development**   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Git**, **Jira**, **Tribe** and **Squad** work flow trained by **McKinsey**,   
@@ -55,6 +55,32 @@ Github: [https://github.com/jiang-yi-siphty/SSTableView](https://github.com/jian
 The SSTableView is a TableView build by a scroll view and a stack view. The most common APIs are similar to UITableView. In the SSTableView, the developer can embed a ViewController into SSTableViewCell which is impossible in dynamic UITableViewCell. Which means it can help the developer to reuse existing ViewControllers in the TableViewCell.
  
 ##Career Experience
+
+###Nov 2019 - Now &nbsp;&nbsp;Senior iOS Developer, Commwealth Bank Australia
+
+**Project:**   
+&nbsp;&nbsp;&nbsp;&nbsp;**CommBank app**  
+
+CommBank app is the top one finance app in Australia. 
+
+**Key Tech:** iOS, Swift  
+I work in the payment and Apple Pay domain to serve 1.3 million users. 
+
+**Duties and Responsibilities:**  
+ 
+- Develop new features for the app     
+- Working with our team members to build a stable app
+- Review iOS developers' Pull Request
+
+**Achievements**
+
+- Developed Apple pay In-App provisioning
+- Developed Payment Redesigned flow.
+- Improve code quality of the project 
+- Make API calls more efficient
+- Provided multiple iOS Guild speeches
+
+
 
 ###Nov 2018 - Jul 2019 &nbsp;&nbsp;Senior iOS Developer, Woolworths, BWS
 **Project:**   
@@ -244,5 +270,5 @@ Major in E-commerce and project management.
 
  
 
-Jul 2019 Edition 
+Jun 2021 Edition 
  
