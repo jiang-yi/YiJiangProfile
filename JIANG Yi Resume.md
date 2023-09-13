@@ -1,9 +1,9 @@
 # Yi Jiang
 
-**Address:**
-Unit 5 / 43-47 Cross Street
+**Address:**  
+Unit 5 / 43-47 Cross Street  
 Baulkham Hills, NSW, 2153, Australia  
-**Mobile:** 04 3309 2885  
+**Mobile:** +61 4 3309 2885  
 **Email:** jiang.yi.work@gmail.com  
 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/jiang-yi-siphty)
 
@@ -13,12 +13,12 @@ I am a seasoned iOS app developer with over a decade of experience, including ni
 
 ## Key Strengths
 
-- Proficiency in the iOS development lifecycle, from architecture to AppStore release.
-- Extensive expertise in design patterns, multi-threading, databases, and frameworks.
-- Strong skills in Git, Jira, and experience with squad-tribe agile methodologies.
-- A passion for emerging technologies and a commitment to continuous learning.
-- Excellent communication and teamwork skills.
-- Diverse range of hobbies.
+- Proficiency in the complete iOS development lifecycle, from architecture design to AppStore release.
+- In-depth expertise in design patterns, multi-threading, databases, and frameworks.
+- Strong skills in Git, Jira, and extensive experience with agile development methodologies.
+- An unwavering passion for emerging technologies and a commitment to continuous learning.
+- Exceptional communication and teamwork skills.
+- A wide range of interests and hobbies.
 
 ## Skills
 
@@ -42,7 +42,7 @@ GitHub: [SSTableView Repository](https://github.com/jiang-yi-siphty/SSTableView)
 **Project:**  
 **CommBank App**
 
-CommBank App is Australia's top finance app, serving 7.7 million users.
+CommBank App is Australia's leading finance app, serving 7.7 million users.
 
 **Key Technologies:** iOS, Swift, Splunk, AppD
 
@@ -51,28 +51,28 @@ CommBank App is Australia's top finance app, serving 7.7 million users.
 - Developing new app features
 - Collaborating with team members to ensure app stability
 - Reviewing iOS developers' Pull Requests
-- Maitain codebase to serve all other developers
+- Maintaining codebase to support all other developers
 
 **Achievements:**
 
 - Uplifed Payment flow in 2020
 - Implemented Apple Pay In-App provisioning in 2021
 - Enhanced Cards view within the app in 2022
-- Developed UniversalLink Mapping feature 2022
+- Developed UniversalLink Mapping feature in 2022
 - Rewrote SSL Pinning module in 2023
 - Created Swift Command line tools for developers
 - Fixed long-standing bugs only identified from crash report in AppDynamics
 - Led efforts to drop minimum support iOS versions iOS 12, iOS 13 and iOS 14
 - Updated third-party libraries (e.g., Alamofire, Splunk, AppDynamics)
-- Delivered iOS Guild speeches for knowledge sharing
-- Fixed many UITest flaky cases to improve CI checks
+- Delivered iOS Guild speeches to share knowledge
+- Fixed numerous flaky UITest cases to enhance CI checks
 
 ### Nov 2018 - Jul 2019: Senior iOS Developer, Woolworths, BWS
 
 **Project:**  
 **BWS App**
 
-BWS App enables customers to purchase drinks conveniently, offering shopping, product browsing, store locator, and delivery options.
+BWS App empowers customers to effortlessly purchase drinks, providing shopping, product browsing, store locator, and delivery features.
 
 **Key Technologies:** iOS, Swift
 
@@ -84,10 +84,10 @@ BWS App enables customers to purchase drinks conveniently, offering shopping, pr
 
 **Achievements:**
 
-- Developed over 50% of app views at first release
-- Improved code quality
-- Accurately implemented UI design
-- Enhanced API call efficiency
+- Developed over 50% of app views upon initial release
+- Enhanced code quality
+- Precisely implemented UI design
+- Improved efficiency of API calls
 
 ### Apr 2018 - Nov 2018: Senior iOS Developer, Optus
 
@@ -102,18 +102,18 @@ MyOptus is an app for managing Optus accounts, covering billing, data usage, mob
 
 - Developing new features for MyOptus App
 - Maintaining business as usual (BAU) tasks
-- Working in a squad-tribe Agile development environment
-- Developing and updating accessibility features
+- Operating in a squad-tribe Agile development environment
+- Developing and enhancing accessibility features
 - Reviewing Pull Requests from other iOS developers
 - Setting up and maintaining CI/CD servers for the tribe
 
 **Achievements:**
 
-- Raised code quality to a high standard
-- Helped squad achieve KPI targets
+- Elevated code quality to a high standard
+- Aided the squad in achieving KPI targets
 - Automated development processes in CI/CD
 - Achieved 80% unit test coverage
-- Improved user experience design
+- Enhanced user experience design
 
 ### Aug 2017 - Mar 2018: iOS Team Leader, Thred Pty Ltd
 
@@ -133,16 +133,16 @@ Sweep is an augmented reality instant messaging app that unlocks exclusive chats
 **Achievements:**
 
 - Successfully published Sweep app on the AppStore
-- Met campaign targets consistently
+- Consistently met campaign targets
 - Implemented automation in CI/CD
 - Refactored Sweep's architecture
 
 ### May 2016 - Feb 2017: Mobile App Developer, MobileDEN Pty Ltd
 
 **Projects:**
-- **Starbucks Australia** ([Download Link](https://goo.gl/b2Xnti))
-- **Oporto Flame Rewards** ([Download Link](https://goo.gl/T3dbnc))
-- **Red Rooster Royalty** ([Download Link](https://goo.gl/PtBojM))
+- **Starbucks Australia**
+- **Oporto Flame Rewards**
+- **Red Rooster Royalty**
 
 MobileDEN is a mobile app agency with clients including Starbucks, Red Rooster, and Oporto.
 
@@ -177,16 +177,16 @@ Digiflex is an Australian electronic security company specializing in access con
 - Assessing iOS app security
 - Developing Android apps
 - Developing backend app servers
-- Maintaining PCB tester programs on LabVIEW and National Instruments
-- Developing firmware programming applications using Delphi
-- Maintaining inventory database (CA-Clipper, dBASE)
+- Maintaining PCB tester programs using LabVIEW and National Instruments
+- Creating firmware programming applications using Delphi
+- Managing inventory database (CA-Clipper, dBASE)
 
 **Achievements:**
 
 - Published three iOS apps on the AppStore
 - Published three Android apps on Google Play
-- Created and maintained backend services
-- Managed an oversea Android team remotely
+- Established and maintained backend services
+- Managed an overseas Android team remotely
 - Designed the architecture for a full-stack system
 
 ## Academic Experience
