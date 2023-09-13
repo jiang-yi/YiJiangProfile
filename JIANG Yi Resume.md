@@ -1,14 +1,11 @@
 # Yi Jiang  
 
-Address:  
-&nbsp;&nbsp;&nbsp;&nbsp;Unit 5 / 43-47 Cross Street    
-&nbsp;&nbsp;&nbsp;&nbsp;Baulkham Hills, NSW, 2153 Australia   
-Mobile: 04 3309 2885  
-Email: <jiang.yi.work@gmail.com>  
-LinkedIn: &nbsp;[https://www.linkedin.com/in/jiang-yi-siphty](https://www.linkedin.com/in/jiang-yi-siphty)    
-Github: [https://github.com/jiang-yi-siphty](https://github.com/jiang-yi-siphty)  
-Resume Repo: [https://github.com/jiang-yi-siphty/YiJiangProfile](https://github.com/jiang-yi-siphty/YiJiangProfile)
-
+Address:
+Unit 5 / 43-47 Cross Street
+Baulkham Hills, NSW, 2153 Australia
+Mobile: 04 3309 2885
+Email: <jiang.yi.work@gmail.com>
+LinkedIn: [https://www.linkedin.com/in/jiang-yi-siphty](https://www.linkedin.com/in/jiang-yi-siphty)
 
 ##Profile  
 
@@ -26,22 +23,22 @@ As a senior iOS app developer, I have ten years of iOS app development experienc
 ##Skills    
 
 - **Expertise**    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iOS**, **Swift 5**, **Objective-C** with and without Storyboard  
+**iOS**, **Swift 5**, **Objective-C** with and without Storyboard  
 - **Design Patterns**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**MVC**, **MVVM**, **MVVM-C** with and without **RxSwift**   
+**MVC**, **MVVM**, **MVVM-C** with and without **RxSwift**   
 - **Other API/Framework**      
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**UIAccessibility**, **PushNotification**, **CoreLocation**, **MapKit**,       
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iBeacons**, **ARKit**, **SceneKit**, **DJI SDK**, **Alamofire**, **Facebook SDK**,       
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Google Serial SDKs**, **Ably SDK**, **DarkSky API**,    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Lottie**, **SDWebImage**, **Starscream**, **Crashlytics**, **Fabric**    
+**UIAccessibility**, **PushNotification**, **CoreLocation**, **MapKit**,       
+**iBeacons**, **ARKit**, **SceneKit**, **DJI SDK**, **Alamofire**, **Facebook SDK**,       
+**Google Serial SDKs**, **Ably SDK**, **DarkSky API**,    
+**Lottie**, **SDWebImage**, **Starscream**, **Crashlytics**, **Fabric**    
 - **Agile Development**   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Git**, **Jira**, **Tribe** and **Squad** work flow trained by **McKinsey**,   
+**Git**, **Jira**, **Tribe** and **Squad** work flow trained by **McKinsey**,   
 - **Testing and Debug**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Xcode Instruments**, **TDD**, **Unit Test**, **Integration Test**, **UI Test**  
+**Xcode Instruments**, **TDD**, **Unit Test**, **Integration Test**, **UI Test**  
 - **App Publishing and CI/CD**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**iTunesConnect**, **TestFlight**, **Fastline**, **Bamboo**, **Jenkins**  
+**iTunesConnect**, **TestFlight**, **Fastline**, **Bamboo**, **Jenkins**  
 - **Other Languages**   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Java**, **Go**, **PHP**, **C**, **Delphi**, **LabView**, **CA-Clipper**, **dBase**  
+**Java**, **Go**, **PHP**, **C**, **Delphi**, **LabView**, **CA-Clipper**, **dBase**  
   
 ##Open Source Project
 ###FloatingButton 
@@ -56,15 +53,15 @@ The SSTableView is a TableView build by a scroll view and a stack view. The most
  
 ##Career Experience
 
-###Nov 2019 - Now &nbsp;&nbsp;Senior iOS Developer, Commwealth Bank Australia
+###Nov 2019 - Now: Senior iOS Developer, Commwealth Bank Australia
 
 **Project:**   
-&nbsp;&nbsp;&nbsp;&nbsp;**CommBank app**  
+**CommBank app**  
 
 CommBank app is the top one finance app in Australia. 
 
-**Key Tech:** iOS, Swift  
-I work in the payment and Apple Pay domain to serve 1.3 million users. 
+**Key Tech:** iOS, Swift, Splunk and AppD  
+I worked in the payment, Apple Pay, Cards and foundation core domain to serve 7.7 million users. Now, I am working on the Accounts features. 
 
 **Duties and Responsibilities:**  
  
@@ -74,17 +71,21 @@ I work in the payment and Apple Pay domain to serve 1.3 million users.
 
 **Achievements**
 
+- Developed Payment Redesigned flow
 - Developed Apple pay In-App provisioning
-- Developed Payment Redesigned flow.
-- Improve code quality of the project 
-- Make API calls more efficient
-- Provided multiple iOS Guild speeches
+- Uplifed Cards view in the app
+- Rewrite SSL Pinning module
+- Developed UniversalLink Mapping feature
+- Developed scripts and Swift Command line tools to releaf developers from complex daily tasks
+- Fixed several bugs that could no longer be reproduced locally but existed for a long time in the crash log and had a huge impact
+- Lead and pushed to the drop off multiple iOS version as minimum suppoert
+- Driven updates of third-party libs such as AlamoreFire, Splunk and AppDynamics
+- Keep providing iOS Guild speeches to spread what I learnt
+- Fix many UITest flaky cases to improve CI checks
 
-
-
-###Nov 2018 - Jul 2019 &nbsp;&nbsp;Senior iOS Developer, Woolworths, BWS
+###Nov 2018 - Jul 2019: Senior iOS Developer, Woolworths, BWS
 **Project:**   
-&nbsp;&nbsp;&nbsp;&nbsp;**BWS app**  (Internal releasd)   
+**BWS app**  (Internal releasd)   
 
 BWS app is going to help customer purchase drinks any time, anywhere. The major features are shopping and browsing products, nearest BWS store finder, order delivery. It is a drinks store in the customer's pocket.
 
@@ -104,10 +105,10 @@ I worked in the BWS department on the greenfield project. The development team h
 - Build the UI by design accurately  
 - Make API calls more efficient
 
-###Apr 2018 - Nov 2018 &nbsp;&nbsp;Senior iOS Developer, Optus  
+###Apr 2018 - Nov 2018: Senior iOS Developer, Optus  
 
 **Project:**   
-&nbsp;&nbsp;&nbsp;&nbsp;**MyOptus**  [https://goo.gl/dTY1eg](https://itunes.apple.com/au/app/my-optus/id503716230)   
+**MyOptus**  [https://goo.gl/dTY1eg](https://itunes.apple.com/au/app/my-optus/id503716230)   
 
 MyOptus is the best place to manage Optus account from billing to data usage for Optus mobile account and Optus broadband account.    
 
@@ -118,7 +119,7 @@ I was worked in the new funded tribe of Digital Hub for MyOptus mobile app proje
  
 - Develop new features for MyOptus App (MOA) 
 - Maintain business as usual (BAU) tasks  
-- Working with our squad members in the tribe to take ownership of the project
+- Working with squad, tribe style argle 
 - Develop and update accessibility feature
 - Review other iOS developers' Pull Request
 - Setup and maintain CI/CD server for the tribe
@@ -131,10 +132,10 @@ I was worked in the new funded tribe of Digital Hub for MyOptus mobile app proje
 - Make unit test coverage reach 80%
 - Implement better user experience design
 
-###Aug 2017 - Mar 2018 &nbsp;&nbsp;iOS Team Leader, Thred Pty Ltd  
+###Aug 2017 - Mar 2018: iOS Team Leader, Thred Pty Ltd  
 
 **Project:**   
-&nbsp;&nbsp;&nbsp;&nbsp;**Sweep**  [https://goo.gl/Wi4mSq](https://goo.gl/Wi4mSq)  
+**Sweep**  [https://goo.gl/Wi4mSq](https://goo.gl/Wi4mSq)  
   
 Sweep is a free app that allows users to engage with the world around them in a completely new way. Whether the user is sitting at a bar, in a university lecture hall or waiting for a train, Sweep’s unique Geochat features allow users to unlock exclusive chats based on their location.  
 
@@ -156,10 +157,10 @@ Thred ([https://www.thred.im/](https://www.thred.im/)) is an ASX listed startup 
 - Refactor architecture of Sweep
 - Keep Git workflow clean and organized
 
-###Feb 2017 - Now &nbsp;&nbsp;Full Stack Developer, Siphty Pty Ltd
+###Feb 2017 - Now: Full Stack Developer, Siphty Pty Ltd
 **Projects:**   
-&nbsp;&nbsp;&nbsp;&nbsp;**ADSB Radar**    (Off the shelf due to refactor since May 2019)  
-&nbsp;&nbsp;&nbsp;&nbsp;**HMD**   (Off the shelf due to refactor)   
+**ADSB Radar**    (Off the shelf due to refactor since May 2019)  
+**HMD**   (Off the shelf due to refactor)   
 ADSB Radar is a virtual radar with Geographic AR view. It can access an ADSB backend server to update all aircraft around a specific geographic location on a map. However, due to the backend server update, I need refactor this project since May 2019. It will come back soon. 
 
 HMD is a DJI drone remote controller application with ADS-B collision avoiding system. It provides a first-person view and geographic AR view. It also warning drone operator to avoid drone No-Fly Zones. Also under refactoring. 
@@ -182,11 +183,11 @@ Siphty is a startup company fund by me with my friends. It hosts our innovation 
 - Keep improving architecture for ADSB Radar   
 - Build a small but strong iOS team   
 
-###May 2016 - Feb 2017 &nbsp;&nbsp;Mobile App Developer, MobileDEN Pty Ltd
+###May 2016 - Feb 2017: Mobile App Developer, MobileDEN Pty Ltd
 **Projects:**  
-&nbsp;&nbsp;&nbsp;&nbsp;**Starbucks Australia** [https://goo.gl/b2Xnti](https://goo.gl/b2Xnti)  
-&nbsp;&nbsp;&nbsp;&nbsp;**Oporto Flame Rewards** [https://goo.gl/T3dbnc](https://goo.gl/T3dbnc)  
-&nbsp;&nbsp;&nbsp;&nbsp;**Red Rooster Royalty** [https://goo.gl/PtBojM](https://goo.gl/PtBojM)   
+**Starbucks Australia** [https://goo.gl/b2Xnti](https://goo.gl/b2Xnti)  
+**Oporto Flame Rewards** [https://goo.gl/T3dbnc](https://goo.gl/T3dbnc)  
+**Red Rooster Royalty** [https://goo.gl/PtBojM](https://goo.gl/PtBojM)   
 
 **Key Tech:** Swift 3, Objective-C, Java
 
@@ -204,13 +205,13 @@ MobileDEN is a startup mobile app agent company. It has several well-known fast-
 - Publish **Oporto** app on AppStore
 - Design the architecture of a white label app
 
-###May 2010 - April 2016 &nbsp;&nbsp;Mobile App Developer, Digiflex Pty Ltd
+###May 2010 - April 2016: Mobile App Developer, Digiflex Pty Ltd
 **Projects:**  
-&nbsp;&nbsp;&nbsp;&nbsp;**MyAlarm SMS Control** (iOS) [https://goo.gl/uCJpHH](https://goo.gl/uCJpHH)   
-&nbsp;&nbsp;&nbsp;&nbsp;**MyAlarm Mobile App Backend Server**  
-&nbsp;&nbsp;&nbsp;&nbsp;**MyAlarm SMS Reports** (iOS) [https://goo.gl/M89yUt](https://goo.gl/M89yUt)  
-&nbsp;&nbsp;&nbsp;&nbsp;**MyAlarm SMS Reports** (Android) [https://goo.gl/y82rvo](https://goo.gl/y82rvo)  
-&nbsp;&nbsp;&nbsp;&nbsp;**MyAlarm iFob Control** (iOS) [https://goo.gl/iUACi5](https://goo.gl/iUACi5)    
+**MyAlarm SMS Control** (iOS) [https://goo.gl/uCJpHH](https://goo.gl/uCJpHH)   
+**MyAlarm Mobile App Backend Server**  
+**MyAlarm SMS Reports** (iOS) [https://goo.gl/M89yUt](https://goo.gl/M89yUt)  
+**MyAlarm SMS Reports** (Android) [https://goo.gl/y82rvo](https://goo.gl/y82rvo)  
+**MyAlarm iFob Control** (iOS) [https://goo.gl/iUACi5](https://goo.gl/iUACi5)    
 
 **Key Tech:** Objective-C, Swift, Java, Go, PHP, Git, dBase, Delphi, LabVIEW
 
@@ -238,7 +239,7 @@ Digiflex is a native Australian electronic security company which provides acces
 - Design the architecture of a full stack system
 
 
-###2009 &nbsp;&nbsp;Help-desk Technician, Aegon-Cnooc Life Insurance Corporation
+###2009 Help-desk Technician, Aegon-Cnooc Life Insurance Corporation
 **Key Tech:** Enterprise resource planning (ERP), Active Directory, Windows Server, SQL Server
 
 AEGON-CNOOC Life Insurance Corporation is funded by two Fortune 500 enterprises, AEGON and CNOOC. 
@@ -270,5 +271,5 @@ Major in E-commerce and project management.
 
  
 
-Jun 2021 Edition 
+Sep 2022 Edition 
  
