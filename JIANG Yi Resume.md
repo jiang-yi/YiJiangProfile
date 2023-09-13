@@ -1,275 +1,252 @@
-# Yi Jiang  
+# Yi Jiang
 
-Address:
-Unit 5 / 43-47 Cross Street
-Baulkham Hills, NSW, 2153 Australia
-Mobile: 04 3309 2885
-Email: <jiang.yi.work@gmail.com>
-LinkedIn: [https://www.linkedin.com/in/jiang-yi-siphty](https://www.linkedin.com/in/jiang-yi-siphty)
+**Address:**  
+Unit 5 / 43-47 Cross Street  
+Baulkham Hills, NSW, 2153, Australia  
+**Mobile:** 04 3309 2885  
+**Email:** jiang.yi.work@gmail.com  
+**LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/jiang-yi-siphty)
 
-##Profile  
+## Profile
 
-As a senior iOS app developer, I have ten years of iOS app development experience, including over eight years of commercial application developing experience. I have two master's degrees in engineering study and ICT. I got more than six years of security system industry experience and six years of agile development working experience. Now, I am working on CommBank App.
- 
-##Key Strengths  
+I am a seasoned iOS app developer with over a decade of experience, including eight years of commercial application development. Holding two master's degrees in engineering and ICT, I have six years of experience in the security system industry and six years of agile development experience. Currently, I am contributing to the development of the CommBank App.
 
-- Expertise in iOS development lifecycle: From architecture to AppStore releasing
-- Extensive knowledge of design patterns, multi-threading, database, frameworks
-- Strong Git/Jira skill with squad-tribe agile working experience
-- Curiosity in emerging technologies and learning Agility  
-- Strong communication and teamwork skills 
-- Wide range of hobbies  
- 
-##Skills    
+## Key Strengths
 
-- **Expertise**    
-**iOS**, **Swift 5**, **Objective-C** with and without Storyboard  
-- **Design Patterns**  
-**MVC**, **MVVM**, **MVVM-C** with and without **RxSwift**   
-- **Other API/Framework**      
-**UIAccessibility**, **PushNotification**, **CoreLocation**, **MapKit**,       
-**iBeacons**, **ARKit**, **SceneKit**, **DJI SDK**, **Alamofire**, **Facebook SDK**,       
-**Google Serial SDKs**, **Ably SDK**, **DarkSky API**,    
-**Lottie**, **SDWebImage**, **Starscream**, **Crashlytics**, **Fabric**    
-- **Agile Development**   
-**Git**, **Jira**, **Tribe** and **Squad** work flow trained by **McKinsey**,   
-- **Testing and Debug**  
-**Xcode Instruments**, **TDD**, **Unit Test**, **Integration Test**, **UI Test**  
-- **App Publishing and CI/CD**  
-**iTunesConnect**, **TestFlight**, **Fastline**, **Bamboo**, **Jenkins**  
-- **Other Languages**   
-**Java**, **Go**, **PHP**, **C**, **Delphi**, **LabView**, **CA-Clipper**, **dBase**  
-  
-##Open Source Project
-###FloatingButton 
-Github: [https://github.com/jiang-yi-siphty/FloatingButton](https://github.com/jiang-yi-siphty/FloatingButton)
+- Proficiency in the iOS development lifecycle, from architecture to AppStore release.
+- Extensive expertise in design patterns, multi-threading, databases, and frameworks.
+- Strong skills in Git, Jira, and experience with squad-tribe agile methodologies.
+- A passion for emerging technologies and a commitment to continuous learning.
+- Excellent communication and teamwork skills.
+- Diverse range of hobbies.
 
-The Floating Button is a demo project to make a global floating button cross all views. It doesn't use any package management tool, like cocoapods, in this repo. You don't need to install pods before building the project. Just double click FloatingButton.xcodeproj in the folder to open the project automatically. :)  
+## Skills
 
-###SSTableView 
-Github: [https://github.com/jiang-yi-siphty/SSTableView](https://github.com/jiang-yi-siphty/SSTableView)
+- **Expertise**: iOS, Swift 5, Objective-C (with and without Storyboard)
+- **Design Patterns**: MVC, MVVM, MVVM-C (with and without RxSwift)
+- **Other APIs/Frameworks**: UIAccessibility, PushNotification, CoreLocation, MapKit, iBeacons, ARKit, SceneKit, DJI SDK, Alamofire, Facebook SDK, Google Serial SDKs, Ably SDK, DarkSky API, Lottie, SDWebImage, Starscream, Crashlytics, Fabric
+- **Agile Development**: Git, Jira, Tribe and Squad workflow (trained by McKinsey)
+- **Testing and Debugging**: Xcode Instruments, TDD, Unit Testing, Integration Testing, UI Testing
+- **App Publishing and CI/CD**: iTunesConnect, TestFlight, Fastlane, Bamboo, Jenkins
+- **Other Languages**: Java, Go, PHP, C, Delphi, LabVIEW, CA-Clipper, dBase
 
-The SSTableView is a TableView build by a scroll view and a stack view. The most common APIs are similar to UITableView. In the SSTableView, the developer can embed a ViewController into SSTableViewCell which is impossible in dynamic UITableViewCell. Which means it can help the developer to reuse existing ViewControllers in the TableViewCell.
- 
-##Career Experience
+## Open Source Projects
 
-###Nov 2019 - Now: Senior iOS Developer, Commwealth Bank Australia
+### FloatingButton
+GitHub: [FloatingButton Repository](https://github.com/jiang-yi-siphty/FloatingButton)
 
-**Project:**   
-**CommBank app**  
+FloatingButton is a demonstration project that implements a global floating button across all views without relying on package management tools like CocoaPods. Users can build the project without the need to install pods, simply by double-clicking FloatingButton.xcodeproj in the folder to open the project.
 
-CommBank app is the top one finance app in Australia. 
+### SSTableView
+GitHub: [SSTableView Repository](https://github.com/jiang-yi-siphty/SSTableView)
 
-**Key Tech:** iOS, Swift, Splunk and AppD  
-I worked in the payment, Apple Pay, Cards and foundation core domain to serve 7.7 million users. Now, I am working on the Accounts features. 
+SSTableView is a TableView built with a scroll view and a stack view. It shares common APIs with UITableView but offers the unique capability to embed a ViewController into SSTableViewCell, which is not possible with dynamic UITableViewCells. This feature facilitates the reuse of existing ViewControllers within TableViewCells.
 
-**Duties and Responsibilities:**  
- 
-- Develop new features for the app     
-- Working with our team members to build a stable app
-- Review iOS developers' Pull Request
+## Career Experience
 
-**Achievements**
+### Nov 2019 - Present: Senior iOS Developer, Commonwealth Bank Australia
 
-- Developed Payment Redesigned flow
-- Developed Apple pay In-App provisioning
-- Uplifed Cards view in the app
-- Rewrite SSL Pinning module
+**Project:**  
+**CommBank App**
+
+CommBank App is Australia's top finance app, serving 7.7 million users.
+
+**Key Technologies:** iOS, Swift, Splunk, AppD
+
+**Responsibilities:**
+
+- Developing new app features
+- Collaborating with team members to ensure app stability
+- Reviewing iOS developers' Pull Requests
+
+**Achievements:**
+
+- Redesigned Payment flow
+- Implemented Apple Pay In-App provisioning
+- Enhanced Cards view within the app
+- Rewrote SSL Pinning module
 - Developed UniversalLink Mapping feature
-- Developed scripts and Swift Command line tools to releaf developers from complex daily tasks
-- Fixed several bugs that could no longer be reproduced locally but existed for a long time in the crash log and had a huge impact
-- Lead and pushed to the drop off multiple iOS version as minimum suppoert
-- Driven updates of third-party libs such as AlamoreFire, Splunk and AppDynamics
-- Keep providing iOS Guild speeches to spread what I learnt
-- Fix many UITest flaky cases to improve CI checks
+- Created Swift Command line tools for developers
+- Fixed long-standing bugs identified from crash logs
+- Led efforts to drop support for older iOS versions
+- Updated third-party libraries (e.g., Alamofire, Splunk, AppDynamics)
+- Delivered iOS Guild speeches for knowledge sharing
+- Fixed many UITest flaky cases to improve CI checks
 
-###Nov 2018 - Jul 2019: Senior iOS Developer, Woolworths, BWS
-**Project:**   
-**BWS app**  (Internal releasd)   
+### Nov 2018 - Jul 2019: Senior iOS Developer, Woolworths, BWS
 
-BWS app is going to help customer purchase drinks any time, anywhere. The major features are shopping and browsing products, nearest BWS store finder, order delivery. It is a drinks store in the customer's pocket.
+**Project:**  
+**BWS App (Internal Release)**
 
-**Key Tech:** iOS, Swift  
-I worked in the BWS department on the greenfield project. The development team has two iOS developers work with Android developers, UI/UX designer, and QA. The app has been released internally. It is going to be released in AppStore, soon. 
+BWS App enables customers to purchase drinks conveniently, offering shopping, product browsing, store locator, and delivery options.
 
-**Duties and Responsibilities:**  
- 
-- Develop new features for the app     
-- Working with our team members to build a stable app
-- Review another iOS developer's Pull Request
+**Key Technologies:** iOS, Swift
 
-**Achievements**
+**Responsibilities:**
 
-- Developed more than 50% views of the app
-- Improve code quality of the project
-- Build the UI by design accurately  
-- Make API calls more efficient
+- Developing new app features
+- Collaborating with cross-functional team members
+- Reviewing Pull Requests from other iOS developers
 
-###Apr 2018 - Nov 2018: Senior iOS Developer, Optus  
+**Achievements:**
 
-**Project:**   
-**MyOptus**  [https://goo.gl/dTY1eg](https://itunes.apple.com/au/app/my-optus/id503716230)   
+- Developed over 50% of app views
+- Improved code quality
+- Accurately implemented UI design
+- Enhanced API call efficiency
 
-MyOptus is the best place to manage Optus account from billing to data usage for Optus mobile account and Optus broadband account.    
+### Apr 2018 - Nov 2018: Senior iOS Developer, Optus
 
-**Key Tech:** iOS, Swift, Git, CI/CD, UIAccessibility, A/B Test  
-I was worked in the new funded tribe of Digital Hub for MyOptus mobile app project in Optus. I was trained in modern Agile development by McKinsey in that period. We keep improving user experience and bring more value to our customer.
+**Project:**  
+**MyOptus App ([Download Link](https://itunes.apple.com/au/app/my-optus/id503716230))**
 
-**Duties and Responsibilities:**  
- 
-- Develop new features for MyOptus App (MOA) 
-- Maintain business as usual (BAU) tasks  
-- Working with squad, tribe style argle 
-- Develop and update accessibility feature
-- Review other iOS developers' Pull Request
-- Setup and maintain CI/CD server for the tribe
+MyOptus is an app for managing Optus accounts, covering billing, data usage, mobile, and broadband.
 
-**Achievements**
+**Key Technologies:** iOS, Swift, Git, CI/CD, UIAccessibility, A/B Test
 
-- Improve code quality to a high level
-- Help squad to achieve KPI target
-- Make automation development on CI/CD
-- Make unit test coverage reach 80%
-- Implement better user experience design
+**Responsibilities:**
 
-###Aug 2017 - Mar 2018: iOS Team Leader, Thred Pty Ltd  
+- Developing new features for MyOptus App
+- Maintaining business as usual (BAU) tasks
+- Working in a squad-tribe Agile development environment
+- Developing and updating accessibility features
+- Reviewing Pull Requests from other iOS developers
+- Setting up and maintaining CI/CD servers for the tribe
 
-**Project:**   
-**Sweep**  [https://goo.gl/Wi4mSq](https://goo.gl/Wi4mSq)  
-  
-Sweep is a free app that allows users to engage with the world around them in a completely new way. Whether the user is sitting at a bar, in a university lecture hall or waiting for a train, Sweep’s unique Geochat features allow users to unlock exclusive chats based on their location.  
+**Achievements:**
 
-**Key Tech:** Swift 4, ARKit, SceneKit, Git, Vuforia, RxSwift
+- Raised code quality to a high standard
+- Helped squad achieve KPI targets
+- Automated development processes in CI/CD
+- Achieved 80% unit test coverage
+- Improved user experience design
 
-Thred ([https://www.thred.im/](https://www.thred.im/)) is an ASX listed startup company. It is an innovative technology company specialising in augmented reality and location-based technologies. It created an instant messaging app Sweep, with AR and geolocation feature.   
+### Aug 2017 - Mar 2018: iOS Team Leader, Thred Pty Ltd
 
-**Duties and Responsibilities:**  
+**Project:**  
+**Sweep App ([Download Link](https://goo.gl/Wi4mSq))**
 
-- Develop new features for Sweep app by RxSwift
-- Managing the iOS develop team  
-- Managing and organising app release in the AppStore   
+Sweep is an augmented reality instant messaging app that unlocks exclusive chats based on users' locations.
 
-**Achievements**
+**Key Technologies:** Swift 4, ARKit, SceneKit, Git, Vuforia, RxSwift
 
-- Publish Sweep app on AppStore
-- Achieve every campaign target 
-- Make automation development on CI/CD
-- Refactor architecture of Sweep
-- Keep Git workflow clean and organized
+**Responsibilities:**
 
-###Feb 2017 - Now: Full Stack Developer, Siphty Pty Ltd
-**Projects:**   
-**ADSB Radar**    (Off the shelf due to refactor since May 2019)  
-**HMD**   (Off the shelf due to refactor)   
-ADSB Radar is a virtual radar with Geographic AR view. It can access an ADSB backend server to update all aircraft around a specific geographic location on a map. However, due to the backend server update, I need refactor this project since May 2019. It will come back soon. 
+- Developing new features for Sweep app using RxSwift
+- Managing the iOS development team
+- Managing and organizing app releases on the AppStore
 
-HMD is a DJI drone remote controller application with ADS-B collision avoiding system. It provides a first-person view and geographic AR view. It also warning drone operator to avoid drone No-Fly Zones. Also under refactoring. 
+**Achievements:**
 
-**Key Tech:** Swift 4.2, Golang, Git, DJI Mobile SDK   
+- Successfully published Sweep app on the AppStore
+- Met campaign targets consistently
+- Implemented automation in CI/CD
+- Refactored Sweep's architecture
+- Maintained a clean and organized Git workflow
 
-Siphty is a startup company fund by me with my friends. It hosts our innovation projects. The main products are ADS-B serial apps and computer graphic/computer vision projects. The HMD+ is a drone remote controller app provides low attitude aircraft collision avoiding and No-Fly Zones notice. The ADSB Radar is an app with live virtual aircraft radar and Geographic AR view. 
+### Feb 2017 - Present: Full Stack Developer, Siphty Pty Ltd
 
-**Duties and Responsibilities:**  
+**Projects:**
+- **ADSB Radar** (Currently refactoring)
+- **HMD** (Currently refactoring)
 
-- Design and developing iOS apps  
-- Managing and organising App Store account  
-- Planning road maps for products strategy  
+Siphty is a startup founded by me and my friends, hosting innovation projects such as ADS-B serial apps and computer graphics/computer vision projects.
 
-**Achievements**  
+**Key Technologies:** Swift 4.2, Golang, Git, DJI Mobile SDK
 
-- Make profit by the published app in AppStore  
-- Running a one-person startup company  
-- Successfully applied for MFi license from Apple through DJI  
-- Keep improving architecture for ADSB Radar   
-- Build a small but strong iOS team   
+**Responsibilities:**
 
-###May 2016 - Feb 2017: Mobile App Developer, MobileDEN Pty Ltd
-**Projects:**  
-**Starbucks Australia** [https://goo.gl/b2Xnti](https://goo.gl/b2Xnti)  
-**Oporto Flame Rewards** [https://goo.gl/T3dbnc](https://goo.gl/T3dbnc)  
-**Red Rooster Royalty** [https://goo.gl/PtBojM](https://goo.gl/PtBojM)   
+- Designing and developing iOS apps
+- Managing and organizing App Store accounts
+- Planning product strategy roadmaps
 
-**Key Tech:** Swift 3, Objective-C, Java
+**Achievements:**
 
-MobileDEN is a startup mobile app agent company. It has several well-known fast-food franchise customers, such as Starbucks, Red Rooster and Oporto. 
+- Achieved profitability with published apps on the AppStore
+- Managed a one-person startup company
+- Successfully obtained an MFi license from Apple through DJI
+- Continued improving ADSB Radar's architecture
+- Built a small but strong iOS team
 
-**Duties and Responsibilities:**  
+### May 2016 - Feb 2017: Mobile App Developer, MobileDEN Pty Ltd
 
-- Developing iOS apps  
-- Maintaining the previous iOS project 
-  
-**Achievements**
+**Projects:**
+- **Starbucks Australia** ([Download Link](https://goo.gl/b2Xnti))
+- **Oporto Flame Rewards** ([Download Link](https://goo.gl/T3dbnc))
+- **Red Rooster Royalty** ([Download Link](https://goo.gl/PtBojM))
 
-- Publish **Starbucks** app on AppStore
-- Publish **RedRoaster** app on AppStore
-- Publish **Oporto** app on AppStore
-- Design the architecture of a white label app
+MobileDEN is a startup mobile app agency with clients including Starbucks, Red Rooster, and Oporto.
 
-###May 2010 - April 2016: Mobile App Developer, Digiflex Pty Ltd
-**Projects:**  
-**MyAlarm SMS Control** (iOS) [https://goo.gl/uCJpHH](https://goo.gl/uCJpHH)   
-**MyAlarm Mobile App Backend Server**  
-**MyAlarm SMS Reports** (iOS) [https://goo.gl/M89yUt](https://goo.gl/M89yUt)  
-**MyAlarm SMS Reports** (Android) [https://goo.gl/y82rvo](https://goo.gl/y82rvo)  
-**MyAlarm iFob Control** (iOS) [https://goo.gl/iUACi5](https://goo.gl/iUACi5)    
+**Key Technologies:** Swift 3, Objective-C, Java
 
-**Key Tech:** Objective-C, Swift, Java, Go, PHP, Git, dBase, Delphi, LabVIEW
+**Responsibilities:**
 
-Digiflex is a native Australian electronic security company which provides access control security solution, designs and produces a serial of control panels and modules for BOSCH Security Australia.
+- Developing iOS apps
+- Maintaining existing iOS projects
 
-**Duties and Responsibilities:** 
- 
-- Leading iOS app project team  
-- Assessing iOS app security  
-- Developing Android apps  
-- Developing back end app server  
- 
-***Other Duties:***  
+**Achievements:**
 
-- Maintaining PCB tester program on LabVIEW and National Instruments;   
-- Developed firmware programming application platform application by Delphi;  
-- Maintaining Inventory Database CA-Clipper code dBASE structure  
+- Published Starbucks, Red Rooster, and Oporto apps on the AppStore
+- Designed the architecture for a white-label app
 
-**Achievements**
+### May 2010 - April 2016: Mobile App Developer, Digiflex Pty Ltd
 
-- Publish three iOS apps on AppStore
-- Publish three Android apps on Google Play
-- Create and maintain backend service
-- Manager an outsource Android team remotely
-- Design the architecture of a full stack system
+**Projects:**
+- **MyAlarm SMS Control** (iOS)
+- **MyAlarm Mobile App Backend Server**
+- **MyAlarm SMS Reports** (iOS)
+- **MyAlarm SMS Reports** (Android)
+- **MyAlarm iFob Control** (iOS)
 
+Digiflex is an Australian electronic security company specializing in access control security solutions.
 
-###2009 Help-desk Technician, Aegon-Cnooc Life Insurance Corporation
-**Key Tech:** Enterprise resource planning (ERP), Active Directory, Windows Server, SQL Server
+**Key Technologies:** Objective-C, Swift, Java, Go, PHP, Git, dBase, Delphi, LabVIEW, CA-Clipper
 
-AEGON-CNOOC Life Insurance Corporation is funded by two Fortune 500 enterprises, AEGON and CNOOC. 
- 
-**Duties and Responsibilities:**   
+**Responsibilities:**
 
-- Provide level 2 helpdesk service daily 
-- Process routine for business continuing process in English working environment at headquarter.
- 
-##Academic Experience
-**2008&nbsp;  Master of ICT**  
-**Department of Computing, Macquarie University**  
-Major in information security and project management.  
+- Leading iOS app project teams
+- Assessing iOS app security
+- Developing Android apps
+- Developing backend app servers
+- Maintaining PCB tester programs on LabVIEW and National Instruments
+- Developing firmware programming applications using Delphi
+- Maintaining inventory database (CA-Clipper, dBASE)
 
- 
-**2007&nbsp;  Master of Engineering Study**  
-**Engineering Faculty, University of Technology, Sydney**   
-Major in machine learning and computer control  
+**Achievements:**
 
- 
-**2004&nbsp;  Bachelor of Computing Science**   
-**Lanzhou University, China**  
-Major in software engineering.
- 
-### Continuing Education
-**2010&nbsp;  Postgraduate Diploma of Business**  
-**Business Faculty (Sydney campus), University of South Queensland**  
-Major in E-commerce and project management.
+- Published three iOS apps on the AppStore
+- Published three Android apps on Google Play
+- Created and maintained backend services
+- Managed an outsourced Android team remotely
+- Designed the architecture for a full-stack system
 
- 
+### 2009: Help-desk Technician, Aegon-CNOOC Life Insurance Corporation
 
-Sep 2022 Edition 
- 
+**Key Technologies:** Enterprise resource planning (ERP), Active Directory, Windows Server, SQL Server
+
+**Responsibilities:**
+
+- Provided level 2 helpdesk support
+- Assisted in routine business processes in an English-speaking environment at the headquarters
+
+## Academic Experience
+
+**2008: Master of ICT**  
+Department of Computing, Macquarie University  
+Major: Information Security and Project Management
+
+**2007: Master of Engineering Study**  
+Engineering Faculty, University of Technology, Sydney  
+Major: Machine Learning and Computer Control
+
+**2004: Bachelor of Computing Science**  
+Lanzhou University, China  
+Major: Software Engineering
+
+## Continuing Education
+
+**2010: Postgraduate Diploma of Business**  
+Business Faculty (Sydney campus), University of South Queensland  
+Major: E-commerce and Project Management
+
+Sep 2023 Edition
