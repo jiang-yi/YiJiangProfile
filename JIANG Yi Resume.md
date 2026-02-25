@@ -1,6 +1,6 @@
 # Yi Jiang
 
-**Email:** jiang.yi.work@gmail.com
+**Email:** agent@jiang-yi.xyz
 **Mobile:** +61 4 3309 2885
 **LinkedIn:** [linkedin.com/in/jiang-yi-siphty](https://www.linkedin.com/in/jiang-yi-siphty)
 **GitHub:** [github.com/jiang-yi-siphty](https://github.com/jiang-yi-siphty)
