@@ -8,21 +8,21 @@
 
 ## Profile
 
-Senior Software Engineer with over a decade of experience specialising in iOS app development. Since 2019, driving key uplift initiatives at Commonwealth Bank — including the Cards and Accounts AAA programmes — serving 7.7M+ users. Beyond mobile, builds automation scripts and CLI tools that streamline engineering workflows, and actively leverages agentic AI programming (Claude Code, Roo Code) to accelerate delivery. Hands-on experience with data ingestion pipelines, RAG databases, and orchestrating multiple AI agents across parallel workstreams.
+Senior Software Engineer with over a decade of experience specialising in iOS app development. Since 2019, leading strategic platform modernisation at Commonwealth Bank — including the Cards and Accounts programmes — serving 7.7M+ users. Beyond mobile, builds automation scripts and CLI tools that streamline engineering workflows, and actively leverages agentic AI programming (Claude Code, Roo Code) to accelerate delivery. Hands-on experience with data ingestion pipelines, RAG databases, and orchestrating multiple AI agents across parallel workstreams.
 
 ## Skills
 
 **iOS Development**
-Swift 5, SwiftUI, UIKit, Objective-C, Xcode, MVVM-C, RxSwift, Combine
+Swift, SwiftUI, UIKit, Xcode, MVVM-C, Combine
 
 **AI & Agentic Development**
-Claude Code, Roo Code, LLM integration, RAG, data ingestion, multi-agent orchestration
+Claude Code Skills, Roo Code, RAG, data ingestion, multi-agent orchestration
 
 **Automation & Tooling**
 Shell scripting, Python, CLI tool development, business process automation
 
 **DevOps & Collaboration**
-Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows, Splunk, AppDynamics
+Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows
 
 ## Career Experience
 
@@ -30,19 +30,19 @@ Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows, Splunk, AppDynami
 
 **Project: CommBank App** — Australia's #1 finance app, 7.7M+ active users
 
-**Key Technologies:** Swift 5, SwiftUI, MVVM-C, RxSwift, Combine, Splunk, AppDynamics
+**Key Technologies:** Swift, SwiftUI, MVVM-C, Combine
 
 **Responsibilities:**
 - Lead iOS feature development and architecture for high-traffic consumer banking modules.
-- Core contributor to the **Cards Uplift** and **Accounts Uplift** AAA-grade rebuild programmes.
+- Core contributor to the **Cards** and **Accounts** strategic platform modernisation programmes — full-scale re-architecture of high-traffic banking modules.
 - Build and maintain internal CLI tools and automation scripts to streamline engineering and release workflows.
-- Integrate agentic AI coding workflows (Claude Code, Roo Code) to accelerate feature delivery.
+- Integrate agentic AI coding workflows (Claude Code Skills, Roo Code) to accelerate feature delivery.
 - Review and mentor peers through Pull Requests across the iOS chapter.
 - Collaborate cross-functionally with designers, backend engineers, and product managers.
 
 **Key Contributions:**
-- Cards Uplift: Led iOS implementation of the Cards module full rebuild.
-- Accounts Uplift: Contributed to the Accounts feature overhaul within the AAA programme.
+- Cards: Led iOS implementation of the Cards module strategic modernisation.
+- Accounts: Contributed to the Accounts platform re-architecture programme.
 - Automation: Authored CLI tooling to automate repetitive engineering and release processes.
 - Apple Pay: Integrated Apple Pay In-App provisioning (2021).
 - Payments: Enhanced the Payment flow (2020).
