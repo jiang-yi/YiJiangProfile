@@ -1,97 +1,95 @@
 # Yi Jiang
 
-**Address:**  
-Unit 5 / 43-47 Cross Street  
-Baulkham Hills, NSW, 2153, Australia  
-**Mobile:** +61 4 3309 2885  
-**Email:** jiang.yi.work@gmail.com  
-**LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/jiang-yi-siphty)
+**Email:** jiang.yi.work@gmail.com
+**Mobile:** +61 4 3309 2885
+**LinkedIn:** [linkedin.com/in/jiang-yi-siphty](https://www.linkedin.com/in/jiang-yi-siphty)
+**GitHub:** [github.com/jiang-yi-siphty](https://github.com/jiang-yi-siphty)
+**Location:** Baulkham Hills, NSW 2153, Australia
 
 ## Profile
 
-A seasoned iOS app developer with a solid decade of experience, specializing in commercial iOS application development for nine years. With dual master's degrees in engineering and ICT, I bring six years of expertise in the security system industry and eight years in agile development practices. My current role involves enhancing the CommBank App, Australia's leading finance application.
-
-## Key Strengths
-
-- Mastery of the entire iOS development lifecycle, from architectural design to App Store deployment.
-- Deep knowledge in design patterns, multi-threading, databases, and frameworks.
-- Proficient in Git, Jira, and adept at agile development methodologies.
-- Passionate about cutting-edge technologies with a commitment to continuous professional development.
-- Excellent communication and teamwork abilities.
-- Diverse interests and hobbies enrich my professional and personal life.
+Senior Software Engineer with over a decade of experience specialising in iOS app development. Since 2019, driving key uplift initiatives at Commonwealth Bank — including the Cards and Accounts AAA programmes — serving 7.7M+ users. Beyond mobile, builds automation scripts and CLI tools that streamline engineering workflows, and actively leverages agentic AI programming (Claude Code, Roo Code) to accelerate delivery. Hands-on experience with data ingestion pipelines, RAG databases, and orchestrating multiple AI agents across parallel workstreams.
 
 ## Skills
 
-- **Expertise**: iOS, Swift 5, Objective-C (with and without Storyboard)
-- **Design Patterns**: MVC, MVVM, MVVM-C (with and without RxSwift)
-- **Agile Development**: Git, Jira, Tribe-Squad / Chapter-Squad style workflows
-- **Testing and Debugging**: Xcode Instruments, Unit Test, UITest, Splunk, AppDynamics
+**iOS Development**
+Swift 5, SwiftUI, UIKit, Objective-C, Xcode, MVVM-C, RxSwift, Combine
+
+**AI & Agentic Development**
+Claude Code, Roo Code, LLM integration, RAG, data ingestion, multi-agent orchestration
+
+**Automation & Tooling**
+Shell scripting, Python, CLI tool development, business process automation
+
+**DevOps & Collaboration**
+Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows, Splunk, AppDynamics
 
 ## Career Experience
 
-### Nov 2019 - Present: Senior iOS Developer, Commonwealth Bank Australia
-**Project: CommBank App**  
-This leading finance app serves over 7.7 million users.
+### Nov 2019 – Present: Senior Software Engineer, Commonwealth Bank Australia
 
-**Key Technologies:** iOS, Swift, Splunk, AppD
+**Project: CommBank App** — Australia's #1 finance app, 7.7M+ active users
+
+**Key Technologies:** Swift 5, SwiftUI, MVVM-C, RxSwift, Combine, Splunk, AppDynamics
 
 **Responsibilities:**
-- Develop and innovate app features.
-- Collaborate with team members to ensure app stability.
-- Review and merge iOS developers' Pull Requests.
-- Maintain and enhance the codebase to support all developers.
+- Lead iOS feature development and architecture for high-traffic consumer banking modules.
+- Core contributor to the **Cards Uplift** and **Accounts Uplift** AAA-grade rebuild programmes.
+- Build and maintain internal CLI tools and automation scripts to streamline engineering and release workflows.
+- Integrate agentic AI coding workflows (Claude Code, Roo Code) to accelerate feature delivery.
+- Review and mentor peers through Pull Requests across the iOS chapter.
+- Collaborate cross-functionally with designers, backend engineers, and product managers.
 
-**Achievements:**
-- Enhanced the Payment flow in 2020.
-- Integrated Apple Pay In-App provisioning in 2021.
+**Key Contributions:**
+- Cards Uplift: Led iOS implementation of the Cards module full rebuild.
+- Accounts Uplift: Contributed to the Accounts feature overhaul within the AAA programme.
+- Automation: Authored CLI tooling to automate repetitive engineering and release processes.
+- Apple Pay: Integrated Apple Pay In-App provisioning (2021).
+- Payments: Enhanced the Payment flow (2020).
 
-### May 2016 - Feb 2017: Mobile App Developer, MobileDEN Pty Ltd
+### May 2016 – Feb 2017: iOS Developer, MobileDEN Pty Ltd
+
 **Projects:** Starbucks Australia, Oporto Flame Rewards, Red Rooster Royalty
 
-MobileDEN is a mobile app agency catering to high-profile clients.
-
-**Key Technologies:** Swift, Objective-C  
+**Key Technologies:** Swift, Objective-C
 
 **Responsibilities:**
-- Developed iOS apps.
-- Maintained and updated existing iOS projects.
+- Built and maintained consumer iOS apps for major Australian brands.
+- Architected a reusable white-label app framework for the agency's client portfolio.
 
 **Achievements:**
-- Successfully published Starbucks, Red Rooster, and Oporto apps on the App Store.
-- Architected a scalable white-label app.
+- Published Starbucks Australia, Red Rooster Royalty, and Oporto Flame Rewards on the App Store.
 
-### May 2010 - April 2016: Mobile App Developer, Digiflex Pty Ltd
-**Projects:** Various iOS and Android apps for MyAlarm, including backend server development.
+### May 2010 – Apr 2016: Mobile App Developer, Digiflex Pty Ltd
 
-Digiflex is an Australian company specializing in electronic security solutions.
+**Projects:** MyAlarm iOS/Android apps, backend server development
 
-**Key Technologies:** Objective-C, Swift, Java, Go, PHP, Git, dBase, Delphi, LabVIEW, CA-Clipper
+**Key Technologies:** Objective-C, Swift, Java, PHP
 
 **Responsibilities:**
-- Led iOS app development teams.
-- Oversaw app security measures.
-- Developed backend servers.
-- Managed international Android app development teams remotely.
+- Led iOS development team for the MyAlarm security monitoring app.
+- Developed backend services and managed Android development remotely.
+- Built full-stack security monitoring system architecture.
 
 **Achievements:**
-- Launched several apps on the App Store and Google Play.
-- Established robust backend services.
-- Managed full-stack system architecture.
+- Launched MyAlarm apps on App Store and Google Play.
+
+## Personal Projects
+
+- **Australian Legal AI Assistant** — AI-powered assistant for navigating Australian law, built with LLM integration and RAG pipeline over a curated legal knowledge base.
+- **ADS-B Aircraft Tracker** — Real-time aircraft data ingestion, processing, and visualisation using ADS-B transponder feeds.
 
 ## Academic Background
 
-**2008: Master of ICT**  
-Department of Computing, Macquarie University  
+**2008 – Master of ICT**, Macquarie University
 Major: Information Security and Project Management
 
-**2007: Master of Engineering**  
-Faculty of Engineering, University of Technology, Sydney  
+**2007 – Master of Engineering**, University of Technology, Sydney
 Major: Machine Learning and Computer Control
 
-**2004: Bachelor of Computing Science**  
-Lanzhou University, China  
+**2004 – Bachelor of Computing Science**, Lanzhou University, China
 Major: Software Engineering
 
 ---
 
-Apr 2024 Edition
+*Feb 2026 Edition*
