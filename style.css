@@ -227,6 +227,13 @@ section > h2 {
   color: var(--text-muted);
 }
 
+.edu-item .edu-detail {
+  margin-top: 0.3rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 /* ── Projects Page ── */
 .projects-grid {
   display: grid;
