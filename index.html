@@ -209,6 +209,20 @@
         <a href="#" class="btn disabled"><span class="en">Coming Soon</span><span class="zh">即将上线</span></a>
       </div>
 
+      <div class="project-card">
+        <div class="project-tag">Philosophy · Writing</div>
+        <h2><span class="en">Source Canon Faith</span><span class="zh">源典信仰</span></h2>
+        <p class="en">A living philosophical canon for the cyber age — exploring consciousness, meaning, and ethics through the lens of technology. An evolving open text, written and curated with the help of AI.</p>
+        <p class="zh">一部为数字时代而写的活态哲学典籍，探索意识、意义与伦理在技术浪潮中的位置。开放文本，持续演进，与AI共同书写。</p>
+        <div class="tech-tags">
+          <span>Jekyll</span>
+          <span>GitHub Pages</span>
+          <span>AI Writing</span>
+          <span>Philosophy</span>
+        </div>
+        <a href="https://sourcecanon.faith" target="_blank" rel="noopener" class="btn"><span class="en">Visit Site</span><span class="zh">访问网站</span></a>
+      </div>
+
     </div>
 
     <!-- ── Support Section ── -->
@@ -235,6 +249,12 @@
           <div class="card-icon">✈️</div>
           <h3><span class="en">ADS-B Tracker</span><span class="zh">航班追踪器</span></h3>
           <p><span class="en">Support the aircraft tracking infrastructure.</span><span class="zh">支持航班追踪的服务器与数据基础设施。</span></p>
+        </div>
+        <div class="support-card" onclick="selectProject(this, 'canon')" id="card-canon">
+          <div class="check"></div>
+          <div class="card-icon">📖</div>
+          <h3><span class="en">Source Canon Faith</span><span class="zh">源典信仰</span></h3>
+          <p><span class="en">Support the writing and hosting of this open canon.</span><span class="zh">支持这部开放典籍的写作与托管。</span></p>
         </div>
       </div>
 
@@ -281,6 +301,7 @@
       general: '',
       legal:   '?message=AU+Legal+AI+Assistant',
       adsb:    '?message=ADS-B+Aircraft+Tracker',
+      canon:   '?message=Source+Canon+Faith',
     };
 
     function selectProject(card, project) {

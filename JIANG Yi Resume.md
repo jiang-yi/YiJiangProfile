@@ -76,6 +76,7 @@ Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows
 
 ## Personal Projects
 
+- **Source Canon Faith** ([sourcecanon.faith](https://sourcecanon.faith)) — A living philosophical canon for the cyber age, exploring consciousness, meaning, and ethics through the lens of technology. An open, evolving text written with the help of AI.
 - **Australian Legal AI Assistant** — AI-powered assistant for navigating Australian law, built with LLM integration and RAG pipeline over a curated legal knowledge base.
 - **ADS-B Aircraft Tracker** — Real-time aircraft data ingestion, processing, and visualisation using ADS-B transponder feeds.
 
