@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yi Jiang – Senior Software Engineer</title>
+  <meta name="description" content="Yi Jiang — Senior Software Engineer with 15+ years of experience in iOS development, agentic AI, and platform engineering. Based in Sydney, Australia." />
+  <meta property="og:title" content="Yi Jiang – Senior Software Engineer" />
+  <meta property="og:description" content="Senior iOS engineer at Commonwealth Bank. 15+ years across fintech, telco, AR startups, and security systems. Based in Sydney, Australia." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    [data-lang="en"] .zh { display: none; }
+    [data-lang="zh"] .en { display: none; }
+    [data-lang="zh"] { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+
+    .lang-toggle {
+      background: rgba(255,255,255,0.15);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 6px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 0.8rem;
+      transition: background 0.15s;
+      letter-spacing: 0.5px;
+    }
+    .lang-toggle:hover { background: rgba(255,255,255,0.25); }
+
+    .edu-detail {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <span class="brand">Yi Jiang</span>
+    <ul>
+      <li><a href="resume.html" class="active"><span class="en">Resume</span><span class="zh">简历</span></a></li>
+      <li><a href="index.html"><span class="en">Projects</span><span class="zh">项目</span></a></li>
+    </ul>
+    <button class="lang-toggle" id="langBtn" onclick="toggleLang()">中文</button>
+  </nav>
+
+  <header class="hero">
+    <h1>蒋 毅 · Yi Jiang</h1>
+    <p class="title">
+      <span class="en">Senior Software Engineer</span>
+      <span class="zh">高级软件工程师</span>
+    </p>
+    <div class="contacts">
+      <a href="mailto:agent@jiang-yi.xyz">agent@jiang-yi.xyz</a>
+      <a href="tel:+61433092885">+61 4 3309 2885</a>
+      <a href="https://www.linkedin.com/in/jiang-yi-siphty" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/jiang-yi" target="_blank" rel="noopener">GitHub</a>
+      <span>Baulkham Hills, NSW · Australia</span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="profile">
+      <h2><span class="en">Profile</span><span class="zh">简介</span></h2>
+      <p class="en">Senior Software Engineer with over 15 years of experience specialising in iOS app development across fintech, telco, and startup environments. Since 2019, one of two iOS engineers driving strategic platform modernisation at Commonwealth Bank — including the Cards and Accounts programmes — serving 7.7M+ users. Beyond mobile, builds automation scripts and CLI tools that streamline engineering workflows, and actively leverages agentic AI programming (Claude Code Skills, Roo Code) to accelerate delivery. Hands-on experience with data ingestion pipelines, RAG databases, and orchestrating multiple AI agents across parallel workstreams.</p>
+      <p class="zh">从事iOS开发十五年有余，横跨金融科技、电信及创业公司等领域。2019年起担任澳洲联邦银行高级软件工程师，深度参与Cards与Accounts两大核心模块战略性现代化改造，守护770万用户的手机银行体验——俗称"把祖传代码体面地重写了一遍"。业余爱好是写CLI工具和自动化脚本，核心驱动力是对重复劳动的深刻厌恶。近年全面拥抱Agentic AI开发，熟练驾驭Claude Code Skills与Roo Code，已初步实现"让AI干活、我负责方向"的工作新范式。</p>
+    </section>
+
+    <section id="skills">
+      <h2><span class="en">Skills</span><span class="zh">技能</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3><span class="en">iOS Development</span><span class="zh">iOS 开发</span></h3>
+          <p class="en">Swift, SwiftUI, UIKit, Xcode, MVVM-C, Combine</p>
+          <p class="zh">Swift, SwiftUI, UIKit, Xcode, MVVM-C, Combine<br><small style="color:var(--text-muted)">(会写，也能看懂三个月前自己写的)</small></p>
+        </div>
+        <div class="skill-card">
+          <h3><span class="en">AI &amp; Agentic Dev</span><span class="zh">AI 与智能体开发</span></h3>
+          <p class="en">Claude Code Skills, Roo Code, RAG, data ingestion, multi-agent orchestration</p>
+          <p class="zh">Claude Code Skills, Roo Code, RAG, 数据摄取, 多Agent协同<br><small style="color:var(--text-muted)">(目前处于人机共生阶段)</small></p>
+        </div>
+        <div class="skill-card">
+          <h3><span class="en">Automation &amp; Tooling</span><span class="zh">自动化与工具链</span></h3>
+          <p class="en">Shell scripting, Python, CLI tool development, business process automation</p>
+          <p class="zh">Shell脚本, Python, CLI工具开发, 业务流程自动化<br><small style="color:var(--text-muted)">(能自动化的绝不手动)</small></p>
+        </div>
+        <div class="skill-card">
+          <h3><span class="en">DevOps &amp; Process</span><span class="zh">工程协作</span></h3>
+          <p class="en">Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows</p>
+          <p class="zh">Git, GitHub Actions, Jira, 敏捷开发, Tribe-Squad工作流</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2><span class="en">Experience</span><span class="zh">工作经历</span></h2>
+
+      <div class="job">
+        <div class="job-header">
+          <h3><span class="en">Senior Software Engineer</span><span class="zh">高级软件工程师</span></h3>
+          <span class="period">Nov 2019 – Present</span>
+        </div>
+        <p class="company">
+          <span class="en">Commonwealth Bank Australia · CommBank App</span>
+          <span class="zh">澳洲联邦银行 · CommBank App</span>
+        </p>
+        <ul class="en">
+          <li>Senior iOS engineer on the core banking squad, delivering features and architecture for Australia's #1 finance app (7.7M+ active users).</li>
+          <li>Core contributor to the <strong>Cards</strong> and <strong>Accounts</strong> strategic platform modernisation programmes — full-scale re-architecture of high-traffic banking modules.</li>
+          <li>Build and maintain internal CLI tools and automation scripts to streamline engineering and release workflows.</li>
+          <li>Integrate agentic AI coding workflows (Claude Code Skills, Roo Code) to accelerate feature delivery.</li>
+          <li>Integrated Apple Pay In-App provisioning (2021); enhanced Payment flow (2020).</li>
+          <li>Review and mentor peers through Pull Requests across the iOS chapter.</li>
+        </ul>
+        <ul class="zh">
+          <li>在核心银行业务团队担任高级iOS工程师，负责澳洲下载量第一金融应用的功能开发与架构设计（770万用户正无感知地依赖于此）。</li>
+          <li>主导参与<strong>Cards</strong>与<strong>Accounts</strong>核心模块战略性现代化改造——将高流量银行模块从旧架构全面重构，改造完成后同事表示"这才像话"。</li>
+          <li>自研工程CLI工具与自动化脚本，系统性消灭重复劳动，省下来的时间用于研究如何进一步自动化。</li>
+          <li>深度实践Claude Code Skills与Roo Code agentic工作流，交付效率肉眼可见地提升。</li>
+          <li>集成Apple Pay In-App开通功能（2021）；优化支付流程（2020）。</li>
+          <li>负责iOS章节代码审查，PR评论风格：专业为主，偶尔穿插善意吐槽。</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3><span class="en">Senior iOS Developer</span><span class="zh">高级iOS开发工程师</span></h3>
+          <span class="period">Apr 2018 – Nov 2018</span>
+        </div>
+        <p class="company">
+          <span class="en">Optus · MyOptus App</span>
+          <span class="zh">Optus · MyOptus App</span>
+        </p>
+        <ul class="en">
+          <li>Developed new features for MyOptus — Australia's #2 telco app covering billing, data usage, mobile, and broadband.</li>
+          <li>Delivered accessibility improvements and A/B testing across key user flows.</li>
+          <li>Set up and maintained CI/CD pipelines for the tribe; achieved 80% unit test coverage.</li>
+          <li>Operated in a squad-tribe Agile environment, reviewing PRs and mentoring developers.</li>
+        </ul>
+        <ul class="zh">
+          <li>开发MyOptus新功能——澳洲第二大电信运营商App，覆盖账单、流量、移动及宽带业务。</li>
+          <li>完成无障碍访问改进与关键用户流程A/B测试。</li>
+          <li>为团队搭建并维护CI/CD流水线，达成80%单元测试覆盖率（这个数字是真实的）。</li>
+          <li>在squad-tribe敏捷环境中工作，负责代码审查与团队指导。</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3><span class="en">iOS Team Leader</span><span class="zh">iOS 团队负责人</span></h3>
+          <span class="period">Aug 2017 – Mar 2018</span>
+        </div>
+        <p class="company">
+          <span class="en">Thred Pty Ltd · Sweep App</span>
+          <span class="zh">Thred · Sweep App</span>
+        </p>
+        <ul class="en">
+          <li>Led iOS development for Sweep — an ARKit-powered location-based instant messaging app from an ASX-listed startup.</li>
+          <li>Managed a small iOS team; oversaw AppStore releases and CI/CD automation.</li>
+          <li>Refactored app architecture and implemented ARKit and SceneKit features.</li>
+        </ul>
+        <ul class="zh">
+          <li>主导Sweep iOS开发——一款基于ARKit的位置实时消息应用，来自ASX上市创业公司。</li>
+          <li>管理小型iOS团队，负责App Store发布与CI/CD自动化。</li>
+          <li>重构应用架构，实现ARKit与SceneKit功能（当时ARKit刚发布，每个坑都是学费）。</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3><span class="en">iOS Developer</span><span class="zh">iOS 开发工程师</span></h3>
+          <span class="period">May 2016 – Feb 2017</span>
+        </div>
+        <p class="company">
+          <span class="en">MobileDEN Pty Ltd · Starbucks AU, Oporto, Red Rooster</span>
+          <span class="zh">MobileDEN · 星巴克澳洲版、Oporto、Red Rooster</span>
+        </p>
+        <ul class="en">
+          <li>Built and maintained consumer iOS apps for major Australian brands.</li>
+          <li>Architected a reusable white-label app framework for the agency's client portfolio.</li>
+          <li>Published Starbucks Australia, Red Rooster Royalty, and Oporto Flame Rewards on the App Store.</li>
+        </ul>
+        <ul class="zh">
+          <li>为澳洲知名消费品牌开发并维护iOS应用。</li>
+          <li>设计可复用白标应用框架——一套代码，多品牌复用，甲方满意，自己也省心。</li>
+          <li>成功上线星巴克澳洲版、Red Rooster Royalty及Oporto Flame Rewards。</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <h3><span class="en">Mobile App Developer</span><span class="zh">移动应用开发工程师</span></h3>
+          <span class="period">May 2010 – Apr 2016</span>
+        </div>
+        <p class="company">
+          <span class="en">Digiflex Pty Ltd · MyAlarm Security System</span>
+          <span class="zh">Digiflex · MyAlarm 安防系统</span>
+        </p>
+        <ul class="en">
+          <li>Led iOS development team for the MyAlarm security monitoring app.</li>
+          <li>Developed backend services and managed Android development remotely.</li>
+          <li>Built full-stack security monitoring system architecture.</li>
+        </ul>
+        <ul class="zh">
+          <li>带领iOS开发团队推进MyAlarm安防应用研发。</li>
+          <li>开发后端服务，并远程管理Android开发团队（跨时区沟通，练就了深厚的异步协作功底）。</li>
+          <li>主导全栈安防监控系统架构设计与落地。</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="education">
+      <h2><span class="en">Education</span><span class="zh">教育背景</span></h2>
+      <div class="edu-item">
+        <h3>
+          <span class="en">Master of ICT — Information Security &amp; Project Management</span>
+          <span class="zh">信息通信技术硕士 — 信息安全与项目管理</span>
+        </h3>
+        <p><span class="en">Macquarie University · 2008</span><span class="zh">麦考瑞大学 · 2008</span></p>
+        <p class="edu-detail en">Capstone project: image recognition system for real-time traffic sign detection and driver alerts.</p>
+        <p class="edu-detail zh">毕业课题：基于图像识别的实时交通标志检测与驾驶员预警系统。</p>
+      </div>
+      <div class="edu-item">
+        <h3>
+          <span class="en">Master of Engineering — Machine Learning &amp; Computer Control</span>
+          <span class="zh">工程硕士 — 机器学习与计算机控制</span>
+        </h3>
+        <p><span class="en">University of Technology, Sydney · 2007</span><span class="zh">悉尼科技大学 · 2007</span></p>
+        <p class="edu-detail en">Coursework included neural networks, fuzzy logic, computer vision, and intelligent control systems — foundational study in applied AI.</p>
+        <p class="edu-detail zh">课程涵盖神经网络、模糊逻辑、计算机视觉与智能控制——那时候AI还不叫AI。</p>
+      </div>
+      <div class="edu-item">
+        <h3>
+          <span class="en">Bachelor of Computing Science — Software Engineering</span>
+          <span class="zh">计算机科学学士 — 软件工程</span>
+        </h3>
+        <p><span class="en">Lanzhou University, China · 2004</span><span class="zh">兰州大学 · 2004</span></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      <span class="en">2026 &nbsp;·&nbsp; <a href="index.html">View Personal Projects →</a></span>
+      <span class="zh">2026年 &nbsp;·&nbsp; <a href="index.html">个人项目展示 →</a></span>
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      const saved = localStorage.getItem('lang') || 'en';
+      setLang(saved);
+    })();
+
+    function setLang(lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+      const btn = document.getElementById('langBtn');
+      if (btn) btn.textContent = lang === 'zh' ? 'EN' : '中文';
+      localStorage.setItem('lang', lang);
+    }
+
+    function toggleLang() {
+      const current = document.documentElement.getAttribute('data-lang');
+      setLang(current === 'zh' ? 'en' : 'zh');
+    }
+  </script>
+
+</body>
+</html>

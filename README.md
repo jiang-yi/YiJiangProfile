@@ -2,10 +2,10 @@
 
 🌐 **Live site:** [jiang-yi.xyz](https://jiang-yi.xyz)
 
-This repository powers my personal profile website at [jiang-yi.xyz](https://jiang-yi.xyz), hosted via GitHub Pages. The site presents my professional resume with an English / 中文 language toggle, and links to a personal projects showcase page.
+This repository powers my personal profile website at [jiang-yi.xyz](https://jiang-yi.xyz), hosted via GitHub Pages. The homepage showcases personal projects with a donation option. The resume is accessible via a direct link, with an English / 中文 language toggle.
 
-- **Resume** → [jiang-yi.xyz](https://jiang-yi.xyz)
-- **Projects** → [jiang-yi.xyz/projects.html](https://jiang-yi.xyz/projects.html)
+- **Projects** → [jiang-yi.xyz](https://jiang-yi.xyz)
+- **Resume** → [jiang-yi.xyz/resume.html](https://jiang-yi.xyz/resume.html)
 
 ---
 
