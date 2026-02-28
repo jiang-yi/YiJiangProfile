@@ -1,24 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects – Yi Jiang</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    [data-lang="en"] .zh { display: none; }
+    [data-lang="zh"] .en { display: none; }
+    [data-lang="zh"] { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; }
+
+    .lang-toggle {
+      background: rgba(255,255,255,0.15);
+      color: white;
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 6px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-left: 0.8rem;
+      transition: background 0.15s;
+      letter-spacing: 0.5px;
+    }
+    .lang-toggle:hover { background: rgba(255,255,255,0.25); }
+
+    /* ── Support Section ── */
+    .support-section {
+      margin-top: 3rem;
+      border-top: 2px solid var(--accent-light);
+      padding-top: 2rem;
+      text-align: center;
+    }
+
+    .support-section h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+
+    .support-section .subtitle {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .support-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .support-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.2rem 1.5rem;
+      min-width: 200px;
+      max-width: 240px;
+      text-align: left;
+      cursor: pointer;
+      transition: border-color 0.15s, box-shadow 0.15s;
+      position: relative;
+    }
+
+    .support-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px rgba(37,99,235,0.12);
+    }
+
+    .support-card.selected {
+      border-color: var(--accent);
+      background: var(--accent-light);
+    }
+
+    .support-card .card-icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .support-card h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 0.2rem;
+    }
+
+    .support-card p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .support-card .check {
+      position: absolute;
+      top: 0.8rem;
+      right: 0.8rem;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.6rem;
+      color: white;
+      transition: all 0.15s;
+    }
+
+    .support-card.selected .check {
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .support-card.selected .check::after {
+      content: '✓';
+    }
+
+    .kofi-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #FF5E5B;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      padding: 0.7rem 1.6rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, transform 0.1s;
+      margin-top: 0.5rem;
+    }
+
+    .kofi-btn:hover {
+      background: #e04e4b;
+      transform: translateY(-1px);
+    }
+
+    .kofi-btn:active { transform: translateY(0); }
+
+    .kofi-btn .kofi-icon {
+      font-size: 1.1rem;
+    }
+
+    .support-note {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.8rem;
+    }
+  </style>
 </head>
 <body>
 
   <nav>
     <span class="brand">Yi Jiang</span>
     <ul>
-      <li><a href="index.html">Resume</a></li>
-      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="index.html"><span class="en">Resume</span><span class="zh">简历</span></a></li>
+      <li><a href="projects.html" class="active"><span class="en">Projects</span><span class="zh">项目</span></a></li>
     </ul>
+    <button class="lang-toggle" id="langBtn" onclick="toggleLang()">中文</button>
   </nav>
 
   <header class="hero">
-    <h1>Personal Projects</h1>
-    <p class="title">Side projects built out of curiosity and necessity</p>
+    <h1><span class="en">Personal Projects</span><span class="zh">个人项目</span></h1>
+    <p class="title">
+      <span class="en">Side projects built out of curiosity and necessity</span>
+      <span class="zh">因好奇心与现实需要而生的业余项目</span>
+    </p>
   </header>
 
   <main class="container">
@@ -26,38 +183,112 @@
 
       <div class="project-card">
         <div class="project-tag">AI · Legal</div>
-        <h2>Australian Legal AI Assistant</h2>
-        <p>An AI-powered assistant for navigating Australian law. Built with LLM integration and a RAG (Retrieval-Augmented Generation) pipeline over a curated legal knowledge base to provide accurate, context-aware legal guidance.</p>
+        <h2><span class="en">Australian Legal AI Assistant</span><span class="zh">澳洲法律 AI 助理</span></h2>
+        <p class="en">An AI-powered assistant for navigating Australian law. Built with LLM integration and a RAG pipeline over a curated legal knowledge base to provide accurate, context-aware legal guidance.</p>
+        <p class="zh">基于LLM与RAG构建的澳洲法律智能问答系统，让"我需要一个律师"变得更实惠。</p>
         <div class="tech-tags">
           <span>LLM</span>
           <span>RAG</span>
           <span>Python</span>
           <span>Vector DB</span>
         </div>
-        <!-- Replace href="#" with your project URL when ready -->
-        <a href="#" class="btn disabled">Coming Soon</a>
+        <a href="#" class="btn disabled"><span class="en">Coming Soon</span><span class="zh">即将上线</span></a>
       </div>
 
       <div class="project-card">
         <div class="project-tag">Data · Aviation</div>
-        <h2>ADS-B Aircraft Tracker</h2>
-        <p>Real-time aircraft data ingestion, processing, and visualisation using ADS-B transponder feeds. Tracks flights over Australia with live map rendering and historical data analysis.</p>
+        <h2><span class="en">ADS-B Aircraft Tracker</span><span class="zh">ADS-B 航班追踪器</span></h2>
+        <p class="en">Real-time aircraft data ingestion, processing, and visualisation using ADS-B transponder feeds. Tracks flights over Australia with live map rendering and historical data analysis.</p>
+        <p class="zh">实时采集、处理并可视化ADS-B飞机应答信号，随时掌握头顶飞的是哪架飞机。</p>
         <div class="tech-tags">
           <span>ADS-B</span>
           <span>Data Ingestion</span>
           <span>Swift</span>
           <span>Maps</span>
         </div>
-        <!-- Replace href="#" with your project URL when ready -->
-        <a href="#" class="btn disabled">Coming Soon</a>
+        <a href="#" class="btn disabled"><span class="en">Coming Soon</span><span class="zh">即将上线</span></a>
       </div>
 
     </div>
+
+    <!-- ── Support Section ── -->
+    <div class="support-section">
+      <h2><span class="en">☕ Support This Work</span><span class="zh">☕ 支持这些项目</span></h2>
+      <p class="subtitle en">These projects are free and open. If they're useful to you, a coffee goes a long way.</p>
+      <p class="subtitle zh">这些项目免费开放。如果对你有帮助，请我喝杯咖啡吧——代码跑得更好。</p>
+
+      <div class="support-options">
+        <div class="support-card selected" onclick="selectProject(this, 'general')" id="card-general">
+          <div class="check"></div>
+          <div class="card-icon">🚀</div>
+          <h3><span class="en">General Support</span><span class="zh">通用支持</span></h3>
+          <p><span class="en">Support all projects and keep the servers running.</span><span class="zh">支持所有项目，帮我续费服务器。</span></p>
+        </div>
+        <div class="support-card" onclick="selectProject(this, 'legal')" id="card-legal">
+          <div class="check"></div>
+          <div class="card-icon">🤖</div>
+          <h3><span class="en">AU Legal AI</span><span class="zh">法律 AI 助理</span></h3>
+          <p><span class="en">Help cover LLM API costs for the legal assistant.</span><span class="zh">帮助支付法律助理的 LLM API 费用。</span></p>
+        </div>
+        <div class="support-card" onclick="selectProject(this, 'adsb')" id="card-adsb">
+          <div class="check"></div>
+          <div class="card-icon">✈️</div>
+          <h3><span class="en">ADS-B Tracker</span><span class="zh">航班追踪器</span></h3>
+          <p><span class="en">Support the aircraft tracking infrastructure.</span><span class="zh">支持航班追踪的服务器与数据基础设施。</span></p>
+        </div>
+      </div>
+
+      <!-- Replace YOUR_KOFI_USERNAME with your Ko-fi username -->
+      <a id="kofi-link" href="https://ko-fi.com/YOUR_KOFI_USERNAME" target="_blank" rel="noopener" class="kofi-btn">
+        <span class="kofi-icon">☕</span>
+        <span class="en">Buy me a coffee</span>
+        <span class="zh">请我喝杯咖啡</span>
+      </a>
+
+      <p class="support-note en">Powered by Ko-fi · No platform fees · Payments via Stripe or PayPal</p>
+      <p class="support-note zh">通过 Ko-fi 处理 · 无平台手续费 · 支持 Stripe 或 PayPal 付款</p>
+    </div>
+
   </main>
 
   <footer>
-    <p>© Yi Jiang &nbsp;·&nbsp; <a href="index.html">← Back to Resume</a></p>
+    <p>© Yi Jiang &nbsp;·&nbsp; <a href="index.html"><span class="en">← Back to Resume</span><span class="zh">← 返回简历</span></a></p>
   </footer>
+
+  <script>
+    /* ── Language toggle (synced with index.html via localStorage) ── */
+    (function () {
+      const saved = localStorage.getItem('lang') || 'en';
+      setLang(saved);
+    })();
+
+    function setLang(lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+      const btn = document.getElementById('langBtn');
+      if (btn) btn.textContent = lang === 'zh' ? 'EN' : '中文';
+      localStorage.setItem('lang', lang);
+    }
+
+    function toggleLang() {
+      const current = document.documentElement.getAttribute('data-lang');
+      setLang(current === 'zh' ? 'en' : 'zh');
+    }
+
+    /* ── Donation project selector ── */
+    const kofiBase = 'https://ko-fi.com/YOUR_KOFI_USERNAME';
+    const projectMessages = {
+      general: '',
+      legal:   '?message=AU+Legal+AI+Assistant',
+      adsb:    '?message=ADS-B+Aircraft+Tracker',
+    };
+
+    function selectProject(card, project) {
+      document.querySelectorAll('.support-card').forEach(c => c.classList.remove('selected'));
+      card.classList.add('selected');
+      document.getElementById('kofi-link').href = kofiBase + (projectMessages[project] || '');
+    }
+  </script>
 
 </body>
 </html>
