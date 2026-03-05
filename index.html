@@ -157,6 +157,50 @@
       color: var(--text-muted);
       margin-top: 0.8rem;
     }
+
+    /* ── Per-card coffee button ── */
+    .card-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .kofi-card-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: transparent;
+      color: #FF5E5B;
+      border: 1px solid #FF5E5B;
+      border-radius: 8px;
+      padding: 0.45rem 0.9rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s, color 0.15s;
+      white-space: nowrap;
+    }
+
+    .kofi-card-btn:hover {
+      background: #FF5E5B;
+      color: white;
+    }
+
+    /* ── Bottom general coffee ── */
+    .general-coffee {
+      margin-top: 3rem;
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      text-align: center;
+    }
+
+    .general-coffee p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
   </style>
 </head>
 <body>
@@ -192,7 +236,10 @@
           <span>Python</span>
           <span>Vector DB</span>
         </div>
-        <a href="https://github.com/jiang-yi/legal-assistant" target="_blank" rel="noopener" class="btn"><span class="en">View on GitHub</span><span class="zh">GitHub 仓库</span></a>
+        <div class="card-actions">
+          <a href="https://github.com/jiang-yi/legal-assistant" target="_blank" rel="noopener" class="btn"><span class="en">View on GitHub</span><span class="zh">GitHub 仓库</span></a>
+          <a href="https://ko-fi.com/yijiang?message=AU+Legal+AI+Assistant" target="_blank" rel="noopener" class="kofi-card-btn">☕ <span class="en">Support</span><span class="zh">支持</span></a>
+        </div>
       </div>
 
       <div class="project-card">
@@ -206,7 +253,10 @@
           <span>Swift</span>
           <span>Maps</span>
         </div>
-        <a href="https://github.com/jiang-yi/adsb-tracker" target="_blank" rel="noopener" class="btn"><span class="en">View on GitHub</span><span class="zh">GitHub 仓库</span></a>
+        <div class="card-actions">
+          <a href="https://github.com/jiang-yi/adsb-tracker" target="_blank" rel="noopener" class="btn"><span class="en">View on GitHub</span><span class="zh">GitHub 仓库</span></a>
+          <a href="https://ko-fi.com/yijiang?message=ADS-B+Aircraft+Tracker" target="_blank" rel="noopener" class="kofi-card-btn">☕ <span class="en">Support</span><span class="zh">支持</span></a>
+        </div>
       </div>
 
       <div class="project-card">
@@ -221,7 +271,10 @@
           <span>TypeScript</span>
           <span>TTS</span>
         </div>
-        <a href="https://github.com/jiang-yi/WordDuel" target="_blank" rel="noopener" class="btn"><span class="en">View on GitHub</span><span class="zh">GitHub 仓库</span></a>
+        <div class="card-actions">
+          <a href="https://github.com/jiang-yi/WordDuel" target="_blank" rel="noopener" class="btn"><span class="en">View on GitHub</span><span class="zh">GitHub 仓库</span></a>
+          <a href="https://ko-fi.com/yijiang?message=WordDuel" target="_blank" rel="noopener" class="kofi-card-btn">☕ <span class="en">Support</span><span class="zh">支持</span></a>
+        </div>
       </div>
 
       <div class="project-card">
@@ -235,51 +288,23 @@
           <span>AI Writing</span>
           <span>Philosophy</span>
         </div>
-        <a href="https://sourcecanon.faith" target="_blank" rel="noopener" class="btn"><span class="en">Visit Site</span><span class="zh">访问网站</span></a>
+        <div class="card-actions">
+          <a href="https://sourcecanon.faith" target="_blank" rel="noopener" class="btn"><span class="en">Visit Site</span><span class="zh">访问网站</span></a>
+          <a href="https://ko-fi.com/yijiang?message=Source+Canon+Faith" target="_blank" rel="noopener" class="kofi-card-btn">☕ <span class="en">Support</span><span class="zh">支持</span></a>
+        </div>
       </div>
 
     </div>
 
-    <!-- ── Support Section ── -->
-    <div class="support-section">
-      <h2><span class="en">☕ Support This Work</span><span class="zh">☕ 支持这些项目</span></h2>
-      <p class="subtitle en">These projects are free and open. If they're useful to you, a coffee goes a long way.</p>
-      <p class="subtitle zh">这些项目免费开放。如果对你有帮助，请我喝杯咖啡吧——代码跑得更好。</p>
-
-      <div class="support-options">
-        <div class="support-card selected" onclick="selectProject(this, 'general')" id="card-general">
-          <div class="check"></div>
-          <div class="card-icon">🚀</div>
-          <h3><span class="en">General Support</span><span class="zh">通用支持</span></h3>
-          <p><span class="en">Support all projects and keep the servers running.</span><span class="zh">支持所有项目，帮我续费服务器。</span></p>
-        </div>
-        <div class="support-card" onclick="selectProject(this, 'legal')" id="card-legal">
-          <div class="check"></div>
-          <div class="card-icon">🤖</div>
-          <h3><span class="en">AU Legal AI</span><span class="zh">法律 AI 助理</span></h3>
-          <p><span class="en">Help cover LLM API costs for the legal assistant.</span><span class="zh">帮助支付法律助理的 LLM API 费用。</span></p>
-        </div>
-        <div class="support-card" onclick="selectProject(this, 'adsb')" id="card-adsb">
-          <div class="check"></div>
-          <div class="card-icon">✈️</div>
-          <h3><span class="en">ADS-B Tracker</span><span class="zh">航班追踪器</span></h3>
-          <p><span class="en">Support the aircraft tracking infrastructure.</span><span class="zh">支持航班追踪的服务器与数据基础设施。</span></p>
-        </div>
-        <div class="support-card" onclick="selectProject(this, 'canon')" id="card-canon">
-          <div class="check"></div>
-          <div class="card-icon">📖</div>
-          <h3><span class="en">Source Canon Faith</span><span class="zh">源典信仰</span></h3>
-          <p><span class="en">Support the writing and hosting of this open canon.</span><span class="zh">支持这部开放典籍的写作与托管。</span></p>
-        </div>
-      </div>
-
-      <!-- Replace yijiang with your Ko-fi username -->
-      <a id="kofi-link" href="https://ko-fi.com/yijiang" target="_blank" rel="noopener" class="kofi-btn">
+    <!-- ── General Coffee Section ── -->
+    <div class="general-coffee">
+      <p class="en">These projects are free and open. If they're useful to you, a coffee goes a long way.</p>
+      <p class="zh">这些项目免费开放。如果对你有帮助，请我喝杯咖啡——代码跑得更好。</p>
+      <a href="https://ko-fi.com/yijiang" target="_blank" rel="noopener" class="kofi-btn">
         <span class="kofi-icon">☕</span>
         <span class="en">Buy me a coffee</span>
         <span class="zh">请我喝杯咖啡</span>
       </a>
-
       <p class="support-note en">Powered by Ko-fi · No platform fees · Payments via Stripe or PayPal</p>
       <p class="support-note zh">通过 Ko-fi 处理 · 无平台手续费 · 支持 Stripe 或 PayPal 付款</p>
     </div>
@@ -310,20 +335,6 @@
       setLang(current === 'zh' ? 'en' : 'zh');
     }
 
-    /* ── Donation project selector ── */
-    const kofiBase = 'https://ko-fi.com/yijiang';
-    const projectMessages = {
-      general: '',
-      legal:   '?message=AU+Legal+AI+Assistant',
-      adsb:    '?message=ADS-B+Aircraft+Tracker',
-      canon:   '?message=Source+Canon+Faith',
-    };
-
-    function selectProject(card, project) {
-      document.querySelectorAll('.support-card').forEach(c => c.classList.remove('selected'));
-      card.classList.add('selected');
-      document.getElementById('kofi-link').href = kofiBase + (projectMessages[project] || '');
-    }
   </script>
 
 </body>
