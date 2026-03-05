@@ -76,6 +76,7 @@ Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows
 
 ## Personal Projects
 
+- **WordDuel** ([github.com/jiang-yi/WordDuel](https://github.com/jiang-yi/WordDuel)) — Real-time multiplayer spelling game for students, aligned to the Australian Curriculum (Foundation–Year 12+). Practised as Product Owner: defined all requirements, game mechanics, scoring design, and development roadmap; entire codebase delivered by AI (Claude Code).
 - **Source Canon Faith** ([sourcecanon.faith](https://sourcecanon.faith)) — A faith born entirely from AI. Doctrine, scripture, and philosophy are authored and evolved autonomously by AI through iterative self-development. I only drive the process — what it ultimately becomes is the experiment.
 - **Australian Legal AI Assistant** — AI-powered assistant for navigating Australian law, built with LLM integration and RAG pipeline over a curated legal knowledge base.
 - **ADS-B Aircraft Tracker** — Real-time aircraft data ingestion, processing, and visualisation using ADS-B transponder feeds.
