@@ -8,7 +8,7 @@
 
 ## Profile
 
-Senior Software Engineer with over a decade of experience specialising in iOS app development. Since 2019, leading strategic platform modernisation at Commonwealth Bank — including the Cards and Accounts programmes — serving 7.7M+ users. Beyond mobile, builds automation scripts and CLI tools that streamline engineering workflows, and actively leverages agentic AI programming (Claude Code, Roo Code) to accelerate delivery. Hands-on experience with data ingestion pipelines, RAG databases, and orchestrating multiple AI agents across parallel workstreams.
+Senior Software Engineer with over a decade of experience specialising in iOS app development. Since 2019, leading strategic platform modernisation at Commonwealth Bank — including the Cards and Accounts tabs of the CommBank App — serving 7.7M+ users. Beyond mobile, builds automation scripts and CLI tools that streamline engineering workflows, and actively leverages agentic AI programming (Claude Code, Roo Code) to accelerate delivery. Hands-on experience with data ingestion pipelines, RAG databases, and orchestrating multiple AI agents across parallel workstreams.
 
 ## Skills
 
@@ -34,15 +34,15 @@ Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows
 
 **Responsibilities:**
 - Lead iOS feature development and architecture for high-traffic consumer banking modules.
-- Core contributor to the **Cards** and **Accounts** strategic platform modernisation programmes — full-scale re-architecture of high-traffic banking modules.
+- Core contributor to the strategic platform modernisation of the **Cards** and **Accounts** tabs — two of the highest-traffic sections of the CommBank App.
 - Build and maintain internal CLI tools and automation scripts to streamline engineering and release workflows.
 - Integrate agentic AI coding workflows (Claude Code Skills, Roo Code) to accelerate feature delivery.
 - Review and mentor peers through Pull Requests across the iOS chapter.
 - Collaborate cross-functionally with designers, backend engineers, and product managers.
 
 **Key Contributions:**
-- Cards: Led iOS implementation of the Cards module strategic modernisation.
-- Accounts: Contributed to the Accounts platform re-architecture programme.
+- Cards: Led iOS implementation of the strategic modernisation of the Cards tab.
+- Accounts: Contributed to the strategic re-architecture of the Accounts tab.
 - Automation: Authored CLI tooling to automate repetitive engineering and release processes.
 - Apple Pay: Integrated Apple Pay In-App provisioning (2021).
 - Payments: Enhanced the Payment flow (2020).
@@ -78,8 +78,8 @@ Git, GitHub Actions, Jira, Agile/Scrum, Tribe-Squad workflows
 
 - **WordDuel** ([github.com/jiang-yi/WordDuel](https://github.com/jiang-yi/WordDuel)) — Real-time multiplayer spelling game for students, aligned to the Australian Curriculum (Foundation–Year 12+). Practised as Product Owner: defined all requirements, game mechanics, scoring design, and development roadmap; entire codebase delivered by AI (Claude Code).
 - **Source Canon Faith** ([sourcecanon.faith](https://sourcecanon.faith)) — A faith born entirely from AI. Doctrine, scripture, and philosophy are authored and evolved autonomously by AI through iterative self-development. I only drive the process — what it ultimately becomes is the experiment.
-- **Australian Legal AI Assistant** — AI-powered assistant for navigating Australian law, built with LLM integration and RAG pipeline over a curated legal knowledge base.
-- **ADS-B Aircraft Tracker** — Real-time aircraft data ingestion, processing, and visualisation using ADS-B transponder feeds.
+- **Australian Legal AI Assistant** ([legal.jiang-yi.xyz](https://legal.jiang-yi.xyz/)) — AI-powered assistant for navigating Australian law, built with LLM integration and RAG pipeline over a curated legal knowledge base.
+- **ADS-B Aircraft Tracker** ([adsb.jiang-yi.xyz](https://adsb.jiang-yi.xyz)) — Real-time aircraft data ingestion, processing, and visualisation using ADS-B transponder feeds.
 
 ## Academic Background
 
